@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/H (1).png" type="image/x-icon">
+
+    <title>Portfólio | Herick Machado</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- CABEÇALHO --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Herick</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Início</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projetos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contato</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="pdf/Herick Machado.pdf" download>
+                <button class="btn">Baixar CV <i class="uil uil-file-alt"></i></button>
+            </a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- PRINCIPAL ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- DESTAQUE ---------------- -->
+       <section class="featured-box" id="home" >
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Herick Machado</span>
+            </div>
+            <div class="featured-name">
+                <p>Eu sou <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Estudante de Desenvolvimento de Sistemas com uma paixão por criar sistemas intuitivos e visualmente atrativos. Busco sempre criar soluções que sejam tanto funcionais quanto agradáveis aos usuários finais.</p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn"  onclick="scrollToContact()">Contrate-me</button>
+                <a href="pdf/Herick Machado.pdf" download><button class="btn">Baixar CV <i class="uil uil-file-alt"></i></button></a>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/herickmartinsm_/"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                <a href="https://www.linkedin.com/in/herick-machado-0b312b26b/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href="https://github.com/herickMachado01"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/foto.jpeg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Role para Baixo</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- SOBRE ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre Mim</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Minha Introdução</h3>
+                    <p>Sou um estudante de Desenvolvimento de Sistemas na Etec Dr. Nelson Vianna, com experiência em HTML, CSS, JavaScript e outras tecnologias modernas. Esta bagagem me capacita a implementar recursos interativos de forma eficaz. Além disso, adquiri conhecimento em  WordPress, durante meu curso.</p>
+                    <div class="about-btn">
+                        <a href="pdf/Herick Machado.pdf" download><button class="btn">Baixar CV <i class="uil uil-file-alt"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>c#</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJETOS ---------------- -->
+
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projetos</h1>
+        </div>
+        <div class="project-container">
+            <a  style="text-decoration: none;" href="https://github.com/herickMachado01" target="_blank" class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Projetos Concluídos</h3>
+                <label style="text-align: center;">Incluindo projetos acadêmicos e pessoais. Clique para saber mais</label>
+            </a>
+            <!-- <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Projetos Concluídos</h3>
+                <label style="text-align: center;"> Incluindo projetos acadêmicos e pessoais</label>
+            </div> -->
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Colaborações</h3>
+                <label style="text-align: center;">Participação em equipes e projetos colaborativos</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experiência Prática</h3>
+                <label style="text-align: center;">Aplicação de conhecimentos em projetos reais e desafios</label>
+            </div>
+        </div>
+    </section>
+
+     <!-- -------------- CAIXA DE CONTATO ---------------- -->
+
+     <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Entre em contato</h1>
+          <span>Tem alguma duvida ou interesse? Entre em contato aqui</span>
+        </div>
+        <div class="row">
+           <div class="col">
+              <div class="contact-info">
+                  <h2>Encontre-me <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope"></i> Email: herickmartins86@gmail.com</p>
+                  <p><i class="uil uil-phone"></i> Tel: (55) 15997237164</p>
+              </div>
+           </div>
+<form action="https://api.staticforms.xyz/submit" method="post" class="col">
+    <div class="form-control">
+        <div class="form-inputs">
+            <input type="text" name="name" class="input-field" placeholder="Nome">
+            <input type="text" name="email" class="input-field" placeholder="Email">
+        </div>
+        <div class="text-area">
+            <textarea name="message" placeholder="Mensagem"></textarea>
+        </div>
+        <div class="form-button">
+            <button type="submit" class="btn">Enviar <i class="uil uil-message"></i></button>
+        </div>
+        <input type="hidden" name="accessKey" value="a5ee2f43-4f5c-47e8-bfc5-ebc15678cf2d">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
+    </div>
+</form>
+        </div>
+     </section>
+
+  </main>
+
+
+  <!-- --------------- RODAPÉ --------------- -->
+  <footer>
+      <div class="top-footer">
+          <p>Herick Machado .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Início</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">Sobre</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projetos</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contato</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <a href="https://www.instagram.com/herickmartinsm_/"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+          <a href="https://www.linkedin.com/in/herick-machado-0b312b26b/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+          <a href="https://github.com/herickMachado01"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+      </div>
+      <div class="bottom-footer">
+          <p>Direitos autorais &copy; <a href="#home" style="text-decoration: none;">Herick Machado</a> - Todos os direitos reservados</p>
+      </div>
+  </footer>
+
+  </div>
+
+  <!-- ----- JS do TYPING ----- -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+     <!-- ----- JS do SCROLL REVEAL ----- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- ----- JS PRINCIPAL ----- -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
