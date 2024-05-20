@@ -181,6 +181,8 @@ nav{
     font-size: 15px;
     margin-bottom: 30px;
     color: var(--text-color-second);
+    text-align: justify;
+
 }
 .featured-text-btn{
     display: flex;
